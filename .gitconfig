@@ -1,1 +1,27 @@
-/Users/gufranco/.gitconfig
+[user]
+  name = Gustavo Franco
+  email = gustavocfranco@gmail.com
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = true
+  pager = less -FRSX
+  whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+  editor = vim -f
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = red
+[alias]
+  ci = commit
+  co = checkout
+  st = status
+  dtc = difftool --cached
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  b = for-each-ref --sort=-committerdate refs/heads --format='%(committerdate:short) %(refname:short)'
