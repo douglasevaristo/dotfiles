@@ -1,0 +1,27 @@
+# Mac OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux Files
+.*
+!.gitignore
+*~
+
+# Vagrant Files
+.vagrant
+
+# Common files
+*.log
+*.tmp
+
