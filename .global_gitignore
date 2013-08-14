@@ -21,6 +21,9 @@ $RECYCLE.BIN/
 # Vagrant Files
 .vagrant
 
+# SVN Trash ;)
+.svn
+
 # Common files
 *.log
 *.tmp
@@ -29,5 +32,20 @@ $RECYCLE.BIN/
 *.swp
 *.so
 
+# SASS
+*.sass-cache
+
+# RubyMine
+.idea/workspace.xml
+
 # NetBeans IDE
-nbproject
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Sublime Text
+*.sublime-workspace

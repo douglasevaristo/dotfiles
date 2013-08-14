@@ -2,7 +2,7 @@
   name = Gustavo Franco
   email = gustavocfranco@gmail.com
 [core]
-  excludesfile = ~/.stdgitignore
+  excludesfile = ~/.global_gitignore
   autocrlf = input
   pager = less -FRSX
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
