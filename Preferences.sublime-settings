@@ -1,15 +1,15 @@
 {
+  // Configuração do tema railscasts - https://github.com/tdm00/sublime-theme-railscasts
+  //"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
+
   // Altera a tecla que faz o autocomplete para tab
   "auto_complete_commit_on_tab": true,
 
   // Garante que exista uma linha em branco no fim dos arquivos
   "ensure_newline_at_eof_on_save": true,
 
-  // Fonte do texto
-  "font_face": "Menlo",
-
   // Tamanho da fonte utilizada
-  "font_size": 12.0,
+  "font_size": 10.0,
 
   // Destaca a linha que o cursor esta
   "highlight_line": true,
@@ -44,6 +44,18 @@
   // Desabilita o drag and drop de seleção de textos
   "drag_text": false,
 
+  // Formato do cursor (Opções: smooth, phase, blink, wide e solid)
+  "caret_style": "phase",
+
   // Exibe caracteres em branco
-  "draw_white_space": "all"
+  "draw_white_space": "all",
+
+  // Opção de recolher ou exibir bloco de código sempre visível
+  "fade_fold_buttons": false,
+
+  // Exibe onde começa e termina a identação
+  "indent_guide_options": ["draw_normal", "draw_active"],
+
+  // Marca palavras semelhantes da palavra selecionada
+  "find_selected_text": true
 }
