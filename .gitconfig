@@ -18,6 +18,8 @@
   added = green
   changed = yellow
   untracked = red
+[branch]
+  autosetuprebase = always
 [alias]
   ci = commit
   co = checkout
